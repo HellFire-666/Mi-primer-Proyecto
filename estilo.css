@@ -1,0 +1,132 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: darkslategray;
+    font-family:'Times New Roman', Times, serif
+}
+
+#container{
+    width: 95%;
+    margin: 0px auto;
+    border: 5px solid black;
+}
+
+header{
+    background-color: wheat;
+    color: black;
+    height: 100px;
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+    line-height: auto;
+    border-bottom: 5px dashed black;
+    border-top: 5px dashed black;
+}
+
+.navbar.navbar-expand-lg{
+  border-bottom: 2px solid black;
+  height: 50px;
+  width: 100%;
+  background-color: orange;
+}
+
+.nav-item.active{
+    color: darkblue;
+}
+
+.clearfix{
+    clear: both;
+}
+
+#content{
+    float: left;
+    width: calc(75% - 20px);
+    background-color: turquoise;
+    min-height: 700px;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+#contenido{
+    float: left;
+    width: calc(75% - 20px);
+    background-color: turquoise;
+    min-height: 570px;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+.barralateral{
+    float: left;
+    width: calc(28.1% - 20px);
+    background-color: orangered;
+    min-height: calc(560.1px + 10px);
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    color:black;
+}
+
+aside{
+    float: left;
+    width: calc(28.1% - 20px);
+    background-color: orangered;
+    min-height: calc(690px + 10px);
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    color:black;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    height: 25px;
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+    line-height: 32.5px;
+}
+
+.article{
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    padding-bottom: 5px;
+}
+
+article:first-child{
+    padding-top: 5px;
+    border-top: 2px solid rgb(0, 0, 0);
+}
+
+.article h2{
+    font-size: 30px;
+}
+
+.enlace{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.enlace:hover{
+    color: darkblue;
+    font-weight: bold;
+}
+
+.dropdown-menu.show{
+    background-color: #ffba3b;
+}
+
+.imagen{
+    display: flex;
+    justify-content: center;
+}
